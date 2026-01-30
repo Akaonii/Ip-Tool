@@ -8,7 +8,7 @@ while True:
     print("IP TOOL - MENU PRINCIPAL")
     print("-" * 30)
     print("1. Bloquer une adresse IP (Blacklist)")
-    print("2. Analyser avec VirusTotal (API) / AbuseIPDB / Cisco Talos")
+    print("2. Analyser avec VirusTotal (API) / AbuseIPDB")
     print("3. Geolocalisation d'IP")
     print("4. Consulter la Blacklist")
     print("5. Extraire des IP d'un fichier HTML")
