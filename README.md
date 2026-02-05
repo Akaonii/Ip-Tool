@@ -42,6 +42,7 @@ L'outil automatise l'analyse de réputation en interrogeant les APIs de **VirusT
 bash
 
 git clone [https://github.com/Akaonii/Ip-Tool.git](https://github.com/Akaonii/Ip-Tool.git)
+
 cd Ip-Tool
 
 2. Installation des dépendances
@@ -49,7 +50,7 @@ cd Ip-Tool
 Bash
 pip install requests python-dotenv
 
-4. Configuration des clés API
+3. Configuration des clés API
    
 Créez un fichier .env à la racine du dossier et ajoutez vos identifiants :
 
@@ -59,7 +60,7 @@ VT_API_KEY=votre_cle_virustotal
 
 ABUSEIPDB_API_KEY=votre_cle_abuseipdb
 
-5. Lancer l'application
+4. Lancer l'application
 
 Bash
 
@@ -67,4 +68,5 @@ python main.p
 
 📄 License
 Distribué sous la licence MIT. Voir le fichier LICENSE pour plus d'informations.
+
 
