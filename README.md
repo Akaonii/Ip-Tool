@@ -54,13 +54,17 @@ pip install requests python-dotenv
 Créez un fichier .env à la racine du dossier et ajoutez vos identifiants :
 
 Extrait de code
+
 VT_API_KEY=votre_cle_virustotal
+
 ABUSEIPDB_API_KEY=votre_cle_abuseipdb
 
 5. Lancer l'application
 
 Bash
+
 python main.p
 
 📄 License
 Distribué sous la licence MIT. Voir le fichier LICENSE pour plus d'informations.
+
