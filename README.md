@@ -5,9 +5,9 @@
 ![APIs](https://img.shields.io/badge/APIs-VT%20%7C%20AbuseIPDB-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-**IP TOOL** est un utilitaire en ligne de commande conçu pour les administrateurs système et les analystes en cybersécurité. Il permet de gérer des listes noires locales, de géolocaliser des adresses et d'évaluer la dangerosité des connexions via des services tiers.
+**IP TOOL** is a command line utility designed for system administrators and cybersecurity analysts. It allows you to manage local blacklists, geolocate addresses, and assess the danger level of connections via third-party services.
 
-L'outil automatise l'analyse de réputation en interrogeant les APIs de **VirusTotal** et **AbuseIPDB** pour fournir un score de risque immédiat et précis.
+The tool automates reputation analysis by querying the **VirusTotal** and **AbuseIPDB** APIs to provide an immediate and accurate risk score.
 
 ---
 
@@ -19,11 +19,12 @@ L'outil automatise l'analyse de réputation en interrogeant les APIs de **VirusT
 
 ## ✨ Features
 
-* **🛡️ Gestion de Blacklist** : Ajout sécurisé d'adresses IP dans un fichier `blacklist.txt` avec détection automatique des doublons.
-* **🔍 Analyse Multi-API** : Récupération du nombre de détections malveillantes sur VirusTotal et du score de suspicion sur AbuseIPDB.
-* **🌍 Géolocalisation Live** : Identification du pays, de la ville, de l'ISP (fournisseur) et des coordonnées GPS via l'API ip-api.
-* **📄 Extracteur HTML** : Scan automatique de fichiers (ex: `test.html`) pour extraire toutes les adresses IPv4 valides et les sauvegarder dans `IpATraiter.txt`.
-* **💻 Expérience Console** : Interface fluide avec nettoyage d'écran automatisé pour Windows (`cls`) et Linux/Mac (`clear`).
+* **🛡️ Blacklist Management**: Securely add IP addresses to a `blacklist.txt` file with automatic duplicate detection.
+* **🔍 Multi-API Analysis**: Retrieval of the number of malicious detections on VirusTotal and the suspicion score on AbuseIPDB.
+* **🌍 Live Geolocation**: Identification of the country, city, ISP (provider) and GPS coordinates via the ip-api API.
+* **📄 HTML extractor**: Automatic scanning of files (e.g. `test.html`) to extract all valid IPv4 addresses and save them in `IpATraiter.txt`.
+* **💻 Console experience**: Smooth interface with automated screen clearing for Windows (`cls`) and Linux/Mac (`clear`).
+
 
 ---
 
@@ -37,7 +38,7 @@ L'outil automatise l'analyse de réputation en interrogeant les APIs de **VirusT
 
 ## 🚀 How to run
 
-### 1. Cloner le projet
+### 1. Clone the project
 
 bash
 
@@ -45,28 +46,29 @@ git clone [https://github.com/Akaonii/Ip-Tool.git](https://github.com/Akaonii/Ip
 
 cd Ip-Tool
 
-2. Installation des dépendances
+2. Installation of dependencies
    
 Bash
 pip install requests python-dotenv
 
-3. Configuration des clés API
+3. API key configuration
    
-Créez un fichier .env à la racine du dossier et ajoutez vos identifiants :
+Create an .env file in the root folder and add your credentials:
 
-Extrait de code
+Code snippet
 
 VT_API_KEY=votre_cle_virustotal
 
 ABUSEIPDB_API_KEY=votre_cle_abuseipdb
 
-4. Lancer l'application
+4. Launch the application
 
 Bash
 
 python main.p
 
-📄 License
-Distribué sous la licence MIT. Voir le fichier LICENSE pour plus d'informations.
+📄 Licence
+Distributed under the MIT Licence. See the LICENCE file for more information.
+
 
 
